@@ -1,0 +1,71 @@
+/* ===== GLOBAL BACKGROUND ===== */
+body {
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== PAGE TITLE ===== */
+h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1d3557;
+}
+
+/* ===== TABLE DESIGN ===== */
+.table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.study-header th {
+    background: linear-gradient(90deg, #1d3557 0%, #457b9d 100%) !important;
+    color: white !important;
+}
+
+/* Hover effect */
+.table tbody tr:hover {
+    background: #eaf2fb;
+    transition: 0.2s;
+}
+
+/* ===== BUTTONS ===== */
+.btn-outline-primary {
+    border-color: #457b9d;
+    color: #457b9d;
+}
+
+.btn-outline-primary:hover {
+    background: #457b9d;
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+
+.btn-outline-success:hover {
+    background: #2ecc71;
+    color: white;
+}
+
+/* ===== SEARCH BAR ===== */
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #d9e2ec;
+}
+
+.form-control:focus {
+    border-color: #457b9d;
+    box-shadow: 0 0 0 0.2rem rgba(69, 123, 157, 0.2);
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+}
